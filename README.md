@@ -118,4 +118,9 @@ kubectx john-sa
 kubectl auth can-i get deployments
 
 kubectl get pods 
+
+```
+7. You can also use the token to make http calls to k8s api
+```bash
+curl -H "Authorization: Bearer $TOKEN" https://api.cluster-address/api/v1/pods -k
 ```
