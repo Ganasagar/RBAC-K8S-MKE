@@ -1,4 +1,4 @@
-# Setup RBAC with MKE based k8s installtion
+# Setup RBAC with MKE based k8s cluster
 
 ## Prerequisites
 
