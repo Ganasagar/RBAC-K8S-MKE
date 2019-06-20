@@ -1,13 +1,14 @@
-# Setup Istio with MKE
+# Setup RBAC with MKE based k8s installtion
 
-## Installation
+## Prerequisites
 
-This installation guide was tested with the following components:
+### This installation guide was tested with the following components:
 
-- Mesosphere DC/OS Enterprise 1.12.3
-- Mesosphere Kubernetes Engine 2.2.0-1.13.3
-- Edge-LB 1.3.0
-- Istio 1.0.5
+- Mesosphere DC/OS Enterprise 1.12.3 or higher
+- Mesosphere Kubernetes Engine 2.2.0-1.13.3 or higher
+- Edge-LB 1.3.0 or higher 
+- Access to K8s cluster running in MKE with Aurhorization mode as `RBAC` find the link below on how to do that.
+  https://docs.mesosphere.com/services/kubernetes/2.3.3-1.14.3/operations/authn-and-authz/#rbac
 
 Download and unpack Istio to your workstation:
 
