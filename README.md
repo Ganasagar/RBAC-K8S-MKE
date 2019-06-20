@@ -7,6 +7,8 @@
 - Mesosphere DC/OS Enterprise 1.12.3 or higher
 - Mesosphere Kubernetes Engine 2.2.0-1.13.3 or higher
 - Edge-LB 1.3.0 or higher 
+- Install and configure `kubectl` and `kubectx` cli-tools 
+  Here is a link for kubectx https://github.com/ahmetb/kubectx
 - Access to K8s cluster running in MKE with Aurhorization mode as `RBAC` find the link below on how to do that.
   https://docs.mesosphere.com/services/kubernetes/2.3.3-1.14.3/operations/authn-and-authz/#rbac
 
